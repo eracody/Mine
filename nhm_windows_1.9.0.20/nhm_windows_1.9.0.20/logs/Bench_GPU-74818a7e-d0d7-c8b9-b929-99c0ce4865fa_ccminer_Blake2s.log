@@ -1,0 +1,61 @@
+*** ccminer 2.3.1 for nVidia GPUs by tpruvot@github ***
+    Built with VC++ 2013 and nVidia CUDA SDK 10.0 64-bits
+
+  Originally based on Christian Buchner and Christian H. project
+  Include some kernels from alexis78, djm34, djEzo, tsiv and krnlx.
+
+BTC donation address: 1AJdfCpLWPNoAMDfHF1wD5y8VgKSSTHxPo (tpruvot)
+
+[2019-05-03 09:10:53] NVML GPU monitoring enabled.[0m
+[2019-05-03 09:10:53] NVAPI GPU monitoring enabled.[0m
+[2019-05-03 09:10:53] 1 miner thread started, using 'blake2s' algorithm.[0m
+[2019-05-03 09:10:53] GPU #0: Intensity set to 25, 33554432 cuda threads[0m
+[2019-05-03 09:10:55][33m API bind to port 4068 failed - using port 4069[0m
+[2019-05-03 09:10:56] GPU #0: Zotac GTX 1060 3GB, 2170.00 MH/s[0m
+[2019-05-03 09:10:58][01;37m Total: 2164.51 MH/s[0m
+[2019-05-03 09:11:00] GPU #0: Zotac GTX 1060 3GB, 2162.29 MH/s[0m
+[2019-05-03 09:11:00][01;37m Total: 2163.40 MH/s[0m
+[2019-05-03 09:11:02][01;37m Total: 2163.77 MH/s[0m
+[2019-05-03 09:11:03][01;37m Total: 2161.10 MH/s[0m
+[2019-05-03 09:11:05] GPU #0: Zotac GTX 1060 3GB, 2149.22 MH/s[0m
+[2019-05-03 09:11:05][01;37m Total: 2158.73 MH/s[0m
+[2019-05-03 09:11:07][01;37m Total: 2157.14 MH/s[0m
+[2019-05-03 09:11:09] GPU #0: Zotac GTX 1060 3GB, 2151.90 MH/s[0m
+[2019-05-03 09:11:09][01;37m Total: 2156.39 MH/s[0m
+[2019-05-03 09:11:11][01;37m Total: 2155.63 MH/s[0m
+[2019-05-03 09:11:13] GPU #0: Zotac GTX 1060 3GB, 2150.31 MH/s[0m
+[2019-05-03 09:11:13][01;37m Total: 2155.04 MH/s[0m
+[2019-05-03 09:11:15][01;37m Total: 2154.45 MH/s[0m
+[2019-05-03 09:11:17] GPU #0: Zotac GTX 1060 3GB, 2149.24 MH/s[0m
+[2019-05-03 09:11:17][01;37m Total: 2153.97 MH/s[0m
+[2019-05-03 09:11:19][01;37m Total: 2153.67 MH/s[0m
+[2019-05-03 09:11:21] GPU #0: Zotac GTX 1060 3GB, 2149.22 MH/s[0m
+[2019-05-03 09:11:21][01;37m Total: 2153.32 MH/s[0m
+[2019-05-03 09:11:23][01;37m Total: 2152.49 MH/s[0m
+[2019-05-03 09:11:25] GPU #0: Zotac GTX 1060 3GB, 2120.36 MH/s[0m
+[2019-05-03 09:11:25][01;37m Total: 2150.35 MH/s[0m
+[2019-05-03 09:11:27][01;37m Total: 2148.54 MH/s[0m
+[2019-05-03 09:11:29] GPU #0: Zotac GTX 1060 3GB, 2120.36 MH/s[0m
+[2019-05-03 09:11:29][01;37m Total: 2146.88 MH/s[0m
+[2019-05-03 09:11:31][01;37m Total: 2145.41 MH/s[0m
+[2019-05-03 09:11:33] GPU #0: Zotac GTX 1060 3GB, 2121.61 MH/s[0m
+[2019-05-03 09:11:33][01;37m Total: 2144.16 MH/s[0m
+[2019-05-03 09:11:35][01;37m Total: 2143.02 MH/s[0m
+[2019-05-03 09:11:37] GPU #0: Zotac GTX 1060 3GB, 2120.36 MH/s[0m
+[2019-05-03 09:11:37][01;37m Total: 2141.94 MH/s[0m
+[2019-05-03 09:11:39][01;37m Total: 2140.96 MH/s[0m
+[2019-05-03 09:11:41] GPU #0: Zotac GTX 1060 3GB, 2119.36 MH/s[0m
+[2019-05-03 09:11:41][01;37m Total: 2140.02 MH/s[0m
+[2019-05-03 09:11:43][01;37m Total: 2139.21 MH/s[0m
+[2019-05-03 09:11:45] GPU #0: Zotac GTX 1060 3GB, 2121.41 MH/s[0m
+[2019-05-03 09:11:45][01;37m Total: 2138.50 MH/s[0m
+[2019-05-03 09:11:47][01;37m Total: 2137.76 MH/s[0m
+[2019-05-03 09:11:47] GPU #0: 1830 MHz 21.19 MH/W 100W 70C FAN 67%[0m
+[2019-05-03 09:11:49] GPU #0: Zotac GTX 1060 3GB, 2120.31 MH/s[0m
+[2019-05-03 09:11:49][01;37m Total: 2137.11 MH/s[0m
+[2019-05-03 09:11:51][01;37m Total: 2136.52 MH/s[0m
+[2019-05-03 09:11:53] GPU #0: Zotac GTX 1060 3GB, 2119.42 MH/s[0m
+[2019-05-03 09:11:53][01;37m Total: 2135.93 MH/s[0m
+[2019-05-03 09:11:54][01;37m Total: 2135.38 MH/s[0m
+[2019-05-03 09:11:55][01;37m Total: 2133.95 MH/s[0m
+[2019-05-03 09:11:55][01;37m Benchmark: 2133.95 MH/s[0m

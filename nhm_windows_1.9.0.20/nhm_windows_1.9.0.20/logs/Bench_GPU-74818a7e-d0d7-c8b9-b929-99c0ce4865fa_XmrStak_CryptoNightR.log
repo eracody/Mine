@@ -1,0 +1,50 @@
+[2019-05-03 09:23:51] : Elevating because we need to set up fast memory privileges.
+[2019-05-03 09:23:51] : Skipping RequestElevation. Run NiceHashMinerLegacy as administrator to use fast memory.
+[2019-05-03 09:23:51] : MEMORY INIT ERROR: Obtaining SeLockMemoryPrivilege failed.
+[2019-05-03 09:23:51] : MEMORY ALLOC FAILED: VirtualAlloc failed.
+[2019-05-03 09:23:51] : MEMORY ALLOC FAILED: VirtualAlloc failed.
+[2019-05-03 09:23:51] : MEMORY ALLOC FAILED: VirtualAlloc failed.
+[2019-05-03 09:23:51] : MEMORY ALLOC FAILED: VirtualAlloc failed.
+[2019-05-03 09:23:51] : MEMORY ALLOC FAILED: VirtualAlloc failed.
+-------------------------------------------------------------------
+xmr-stak 2.10.2 aa9d88b
+
+Brought to you by fireice_uk and psychocrypt under GPLv3.
+Based on CPU mining code by wolf9466 (heavily optimized by fireice_uk).
+Based on NVIDIA mining code by KlausT and psychocrypt.
+Based on OpenCL mining code by wolf9466.
+
+Configurable dev donation level is set to 0.0%
+
+-------------------------------------------------------------------
+You can use following keys to display reports:
+'h' - hashrate
+'r' - results
+'c' - connection
+-------------------------------------------------------------------
+Upcoming xmr-stak-gui is sponsored by:
+   #####   ______               ____
+ ##     ## | ___ \             /  _ \
+#    _    #| |_/ /_   _   ___  | / \/ _   _  _ _  _ _  ___  _ __    ___  _   _
+#   |_|   #|    /| | | | / _ \ | |   | | | || '_|| '_|/ _ \| '_ \  / __|| | | |
+#         #| |\ \| |_| || (_) || \_/\| |_| || |  | | |  __/| | | || (__ | |_| |
+ ##     ## \_| \_|\__, | \___/ \____/ \__,_||_|  |_|  \___||_| |_| \___| \__, |
+   #####           __/ |                                                  __/ |
+                  |___/   https://ryo-currency.com                       |___/
+
+This currency is a way for us to implement the ideas that we were unable to in
+Monero. See https://github.com/fireice-uk/cryptonote-speedup-demo for details.
+-------------------------------------------------------------------
+[2019-05-03 09:23:51] : Mining coin: cryptonight_r
+!!!! Doing only a benchmark and exiting. To mine, remove the '--benchmark' option. !!!!
+[2019-05-03 09:23:51] : Prepare benchmark for block version 10
+[2019-05-03 09:23:51] : NVIDIA: try to load library 'xmrstak_cuda_backend_cuda10_0'
+NVIDIA: found 2 potential device's
+[2019-05-03 09:23:51] : Starting NVIDIA GPU thread 0, no affinity.
+CUDA [10.1/10.0] GPU#0, device architecture 61: "GeForce GTX 1060 3GB"... device init succeeded
+[2019-05-03 09:23:51] : NVIDIA: use library 'xmrstak_cuda_backend_cuda10_0'
+[2019-05-03 09:23:51] : MEMORY ALLOC FAILED: VirtualAlloc failed.
+[2019-05-03 09:23:51] : Wait 5 sec until all backends are initialized
+[2019-05-03 09:23:56] : Start a 60 second benchmark...
+[2019-05-03 09:24:56] : Benchmark Thread 0 nvidia: 293.0 H/S
+[2019-05-03 09:24:56] : Benchmark Total: 293.0 H/S

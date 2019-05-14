@@ -1,0 +1,79 @@
+09:39:17:264	7a4	Check and remove old log files...
+09:39:17:267	7a4	args: -di 1 -platform 2 -epool stratum+tcp://daggerhashimoto.usa.nicehash.com:3353 -ewal 33hGFJZQAfbdzyHGqhJPvZwncDjUBdZqjW.miner -mport 127.0.0.1:-4036 -esm 3 -epsw x -allpools 1 -logfile 1-0_log.txt -benchmark 1 
+09:39:17:268	7a4	
+09:39:17:268	7a4	����������������������������������������������������������������ͻ
+09:39:17:270	7a4	�                Claymore's Dual GPU Miner - v12.0               �
+09:39:17:271	7a4	�              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             �
+09:39:17:272	7a4	����������������������������������������������������������������ͼ
+09:39:17:273	7a4	
+09:39:17:275	7a4	b615 
+09:39:17:754	7a4	CUDA initializing...
+
+09:39:17:755	7a4	NVIDIA Cards available: 2 
+09:39:17:757	7a4	CUDA Driver Version/Runtime Version: 10.1/9.1
+09:39:17:760	7a4	GPU #0: GeForce GTX 1060 3GB, 3072 MB available, 9 compute units, capability: 6.1  (pci bus 66:0:0)
+09:39:17:761	7a4	Total cards: 1 
+09:39:17:762	7a4	
+All GPUs are 2GB...3GB, miner is completely free in this case, developer fee will not be mined at all.
+See Readme for details.
+
+09:39:21:780	7a4	NVML version: 10.430.39
+09:39:23:088	7a4	SSL: Imported 34 certificates from local storage
+09:39:23:190	7a4	
+
+09:39:23:191	7a4	
+BENCHMARK MODE!
+
+09:39:23:226	1f9c	Setting DAG epoch #231...
+09:39:23:483	2b44	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:39:23:484	2b44	ETH: GPU0 0.000 Mh/s
+09:39:23:485	2b44	Current -dcri values: -dcri 30
+09:39:26:487	2b44	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:39:26:488	2b44	ETH: GPU0 0.000 Mh/s
+09:39:26:489	2b44	Current -dcri values: -dcri 30
+09:39:27:625	1f9c	Setting DAG epoch #231 for GPU0
+09:39:27:626	1f9c	Create GPU buffer for GPU0
+09:39:27:627	1f9c	CUDA error - cannot allocate big buffer for DAG. Check readme.txt for possible solutions.
+
+09:39:29:585	2b44	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:39:29:586	2b44	ETH: GPU0 0.000 Mh/s
+09:39:29:587	2b44	Current -dcri values: -dcri 30
+09:39:30:629	1f9c	Set global fail flag, failed GPU0
+09:39:30:630	1f9c	GPU 0 failed
+09:39:30:630	16e8	Setting DAG epoch #231 for GPU0
+09:39:30:638	16e8	GPU 0, CUDA error 11 - cannot write buffer for DAG
+
+09:39:32:644	2b44	NVML: cannot get current temperature, error 999 (an internal driver error occurred)
+09:39:32:645	2b44	NVML: cannot get fan speed, error 999 (an internal driver error occurred)
+09:39:32:646	2b44	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:39:32:647	2b44	ETH: GPU0 0.000 Mh/s
+09:39:32:648	2b44	Current -dcri values: -dcri 30
+09:39:33:640	16e8	Set global fail flag, failed GPU0
+09:39:33:641	16e8	GPU 0 failed
+09:39:35:705	2b44	NVML: cannot get current temperature, error 999 (an internal driver error occurred)
+09:39:35:706	2b44	NVML: cannot get fan speed, error 999 (an internal driver error occurred)
+09:39:35:707	2b44	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:39:35:708	2b44	ETH: GPU0 0.000 Mh/s
+09:39:35:709	2b44	Current -dcri values: -dcri 30
+09:39:38:766	2b44	NVML: cannot get current temperature, error 999 (an internal driver error occurred)
+09:39:38:767	2b44	NVML: cannot get fan speed, error 999 (an internal driver error occurred)
+09:39:38:768	2b44	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:39:38:769	2b44	ETH: GPU0 0.000 Mh/s
+09:39:38:770	2b44	Current -dcri values: -dcri 30
+09:39:41:827	2b44	NVML: cannot get current temperature, error 999 (an internal driver error occurred)
+09:39:41:828	2b44	NVML: cannot get fan speed, error 999 (an internal driver error occurred)
+09:39:41:829	2b44	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:39:41:830	2b44	ETH: GPU0 0.000 Mh/s
+09:39:41:831	2b44	Current -dcri values: -dcri 30
+09:39:44:888	2b44	NVML: cannot get current temperature, error 999 (an internal driver error occurred)
+09:39:44:889	2b44	NVML: cannot get fan speed, error 999 (an internal driver error occurred)
+09:39:44:890	2b44	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:39:44:891	2b44	ETH: GPU0 0.000 Mh/s
+09:39:44:892	2b44	Current -dcri values: -dcri 30
+09:39:47:762	f7c	
+09:39:47:762	f7c	watchdog - thread 0 (gpu0), hb time 17125
+09:39:47:764	f7c	watchdog - thread 1 (gpu0), hb time 17125
+09:39:47:765	f7c	WATCHDOG: GPU error, you need to restart miner :( 
+09:39:47:821	21ac	NVML: cannot get current temperature, error 999 (an internal driver error occurred)
+09:39:47:822	21ac	NVML: cannot get fan speed, error 999 (an internal driver error occurred)
+09:39:49:073	f7c	Restarting failed: error 2

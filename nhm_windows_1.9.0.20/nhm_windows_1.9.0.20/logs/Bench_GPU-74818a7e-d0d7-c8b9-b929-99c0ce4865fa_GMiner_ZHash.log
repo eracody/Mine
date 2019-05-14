@@ -1,0 +1,36 @@
++----------------------------------------------------------------+
+|                          GMiner v1.36                          |
++----------------------------------------------------------------+
+Algorithm:          Equihash 144,5 "auto"
+Stratum server:     
+  host:             stratum://zhash.usa.nicehash.com:3369
+  user:             33hGFJZQAfbdzyHGqhJPvZwncDjUBdZqjW.miner
+  password:         x
+Power calculator:   on
+Color output:       on
+Watchdog:           off
+API:                http://127.0.0.1:4024
+Log to file:        off
+Selected devices:   GPU1
+Intensity:          100 
+Temperature limits: 90C 
+------------------------------------------------------------------
+09:22:09 Anti-hacking system detected modification of the miner memory. If you using an antivirus, add miner to antivirus exceptions
++----------------------------------------------------------------+
+|                          GMiner v1.36                          |
++----------------------------------------------------------------+
+Algorithm:          Equihash 144,5 "auto"
+Stratum server:     
+  host:             stratum://zhash.usa.nicehash.com:3369
+  user:             33hGFJZQAfbdzyHGqhJPvZwncDjUBdZqjW.miner
+  password:         x
+Power calculator:   on
+Color output:       on
+Watchdog:           off
+API:                http://127.0.0.1:4037
+Log to file:        off
+Selected devices:   GPU1
+Intensity:          100 
+Temperature limits: 90C 
+------------------------------------------------------------------
+09:45:21 Anti-hacking system detected modification of the miner memory. If you using an antivirus, add miner to antivirus exceptions

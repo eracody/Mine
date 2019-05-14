@@ -1,0 +1,92 @@
+TT-Miner - Version: 2.2.1 (Mar 27 2019 05:43:33)
+
+Press 'q' to stop mining and terminate
+
+****************** GPU information
+Nvidia GeForce Driver-Version: 430.39
+CUDA devices: 2
+* #0 PCI 0:66 Zotac	GeForce GTX 1060 3GB (6.1)	CoreClk 1506 MHz | MemClk 3802 MHz | 3072 MB | SM: 9
+  #1 PCI 0:15 EVGA	GeForce GTX 970 (5.2)	CoreClk 1164 MHz | MemClk 3505 MHz | 4096 MB | SM: 13
+
+****************** Mining-Pool information
+ID:0 - Primary pool:	mtp.usa.nicehash.com:3374
+			Wallet: 33hGFJZQAfbdzyHGqhJPvZwncDjUBdZqjW
+			Worker: benchmark
+
+No backup pool defined
+
+****************** Algo information
+Algo/Cuda detection:	Auto detect
+Algo/Cuda loaded:	MTP for CUDA 10.10
+
+****************** Apply settings
+Set process priority:		default
+Avg. performance timeframe:	2 minutes
+Performance summary(seconds):	15 seconds
+Performance summary(shares):	disabled
+Report Hashrate to pool:	disabled
+Use intensity:			use default value
+Use gridsize:			use default value
+API-Interface enabled. Listening on 1
+
+****************** Start mining
+9:23:46 AM POOL: Connecting to mtp.usa.nicehash.com:3374 - PoolID: 0
+9:23:46 AM POOL: Connected to: mtp.usa.nicehash.com:3374 - IP4: 172.65.221.202:3374, Protocol Stratum
+9:23:46 AM POOL: Subscribed to mtp.usa.nicehash.com:3374 - detected protocol: Stratum
+9:23:46 AM POOL: Worker authorized: benchmark
+9:23:46 AM POOL: Received new job#: 206b1eabd3a
+9:23:49 AM Miner: GPU[0] use default intensity 15, Gridsize: 2304
+9:23:49 AM Miner: GPU[0] try other intensities to find the best performance for your card, you could try '-i 16'
+9:23:49 AM Miner: Error ******** GPU[0] CudaError: 2
+9:23:49 AM Miner: Error ******** GPU[0] Not enough memory to run algo. GPU disabled.(2/1)
+9:23:49 AM Miner: Error ******** GPU[0] Please check if your Virtual Memory setting is OK. You can also try to
+9:23:49 AM Miner: Error ******** GPU[0] reduce the intensity/grid-size command line value to fix this problem.
+9:23:49 AM Miner: Error ******** All GPUs are disabled. TT-Miner cannot continue and will exit now
+9:23:49 AM POOL: Lost connection to mtp.usa.nicehash.com:3374
+9:23:50 AM POOL: difficulty up from 0.000 H to 268.44 MH
+TT-Miner - Version: 2.2.1 (Mar 27 2019 05:43:33)
+
+Press 'q' to stop mining and terminate
+
+****************** GPU information
+Nvidia GeForce Driver-Version: 430.39
+CUDA devices: 2
+* #0 PCI 0:66 Zotac	GeForce GTX 1060 3GB (6.1)	CoreClk 1506 MHz | MemClk 3802 MHz | 3072 MB | SM: 9
+  #1 PCI 0:15 EVGA	GeForce GTX 970 (5.2)	CoreClk 135 MHz | MemClk 324 MHz | 4096 MB | SM: 13
+
+****************** Mining-Pool information
+ID:0 - Primary pool:	mtp.usa.nicehash.com:3374
+			Wallet: 33hGFJZQAfbdzyHGqhJPvZwncDjUBdZqjW
+			Worker: benchmark
+
+No backup pool defined
+
+****************** Algo information
+Algo/Cuda detection:	Auto detect
+Algo/Cuda loaded:	MTP for CUDA 10.10
+
+****************** Apply settings
+Set process priority:		default
+Avg. performance timeframe:	2 minutes
+Performance summary(seconds):	15 seconds
+Performance summary(shares):	disabled
+Report Hashrate to pool:	disabled
+Use intensity:			use default value
+Use gridsize:			use default value
+API-Interface enabled. Listening on 1
+
+****************** Start mining
+9:45:25 AM POOL: Connecting to mtp.usa.nicehash.com:3374 - PoolID: 0
+9:45:25 AM POOL: Connected to: mtp.usa.nicehash.com:3374 - IP4: 172.65.221.202:3374, Protocol Stratum
+9:45:25 AM POOL: Subscribed to mtp.usa.nicehash.com:3374 - detected protocol: Stratum
+9:45:25 AM POOL: Worker authorized: benchmark
+9:45:25 AM POOL: Received new job#: 206b1eb95a9
+9:45:27 AM Miner: GPU[0] use default intensity 15, Gridsize: 2304
+9:45:27 AM Miner: GPU[0] try other intensities to find the best performance for your card, you could try '-i 16'
+9:45:27 AM Miner: Error ******** GPU[0] CudaError: 2
+9:45:27 AM Miner: Error ******** GPU[0] Not enough memory to run algo. GPU disabled.(2/1)
+9:45:27 AM Miner: Error ******** GPU[0] Please check if your Virtual Memory setting is OK. You can also try to
+9:45:27 AM Miner: Error ******** GPU[0] reduce the intensity/grid-size command line value to fix this problem.
+9:45:27 AM Miner: Error ******** All GPUs are disabled. TT-Miner cannot continue and will exit now
+9:45:27 AM POOL: Lost connection to mtp.usa.nicehash.com:3374
+9:45:28 AM POOL: difficulty up from 0.000 H to 268.44 MH

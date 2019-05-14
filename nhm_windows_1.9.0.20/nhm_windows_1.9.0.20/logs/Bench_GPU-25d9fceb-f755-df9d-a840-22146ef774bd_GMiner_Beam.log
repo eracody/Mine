@@ -1,0 +1,36 @@
++----------------------------------------------------------------+
+|                          GMiner v1.36                          |
++----------------------------------------------------------------+
+Algorithm:          Equihash 150,5 "Beam-PoW"
+Stratum server:     
+  host:             stratum://beam.usa.nicehash.com:3370
+  user:             33hGFJZQAfbdzyHGqhJPvZwncDjUBdZqjW.miner
+  password:         x
+Power calculator:   on
+Color output:       on
+Watchdog:           off
+API:                http://127.0.0.1:4026
+Log to file:        off
+Selected devices:   GPU0
+Intensity:          100 
+Temperature limits: 90C 
+------------------------------------------------------------------
+09:22:12 Anti-hacking system detected modification of the miner memory. If you using an antivirus, add miner to antivirus exceptions
++----------------------------------------------------------------+
+|                          GMiner v1.36                          |
++----------------------------------------------------------------+
+Algorithm:          Equihash 150,5 "Beam-PoW"
+Stratum server:     
+  host:             stratum://beam.usa.nicehash.com:3370
+  user:             33hGFJZQAfbdzyHGqhJPvZwncDjUBdZqjW.miner
+  password:         x
+Power calculator:   on
+Color output:       on
+Watchdog:           off
+API:                http://127.0.0.1:4045
+Log to file:        off
+Selected devices:   GPU0
+Intensity:          100 
+Temperature limits: 90C 
+------------------------------------------------------------------
+09:43:05 Anti-hacking system detected modification of the miner memory. If you using an antivirus, add miner to antivirus exceptions

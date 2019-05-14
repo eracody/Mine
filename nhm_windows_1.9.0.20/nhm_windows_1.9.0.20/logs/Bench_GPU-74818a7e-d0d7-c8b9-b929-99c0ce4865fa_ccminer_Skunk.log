@@ -1,0 +1,30 @@
+*** ccminer 2.3.1 for nVidia GPUs by tpruvot@github ***
+    Built with VC++ 2013 and nVidia CUDA SDK 10.0 64-bits
+
+  Originally based on Christian Buchner and Christian H. project
+  Include some kernels from alexis78, djm34, djEzo, tsiv and krnlx.
+
+BTC donation address: 1AJdfCpLWPNoAMDfHF1wD5y8VgKSSTHxPo (tpruvot)
+
+[2019-05-03 09:11:56] NVML GPU monitoring enabled.[0m
+[2019-05-03 09:11:56] NVAPI GPU monitoring enabled.[0m
+[2019-05-03 09:11:56] 1 miner thread started, using 'skunk' algorithm.[0m
+[2019-05-03 09:11:56] GPU #0: Intensity set to 20, 1048576 cuda threads[0m
+[2019-05-03 09:11:58][33m API bind to port 4068 failed - using port 4069[0m
+[2019-05-03 09:12:00] GPU #0: Zotac GTX 1060 3GB, 16.49 MH/s[0m
+[2019-05-03 09:12:06] GPU #0: Zotac GTX 1060 3GB, 16.53 MH/s[0m
+[2019-05-03 09:12:06][01;37m Total: 16.53 MH/s[0m
+[2019-05-03 09:12:16] GPU #0: Zotac GTX 1060 3GB, 16.60 MH/s[0m
+[2019-05-03 09:12:16][01;37m Total: 16.56 MH/s[0m
+[2019-05-03 09:12:26] GPU #0: Zotac GTX 1060 3GB, 16.57 MH/s[0m
+[2019-05-03 09:12:26][01;37m Total: 16.56 MH/s[0m
+[2019-05-03 09:12:36] GPU #0: Zotac GTX 1060 3GB, 16.64 MH/s[0m
+[2019-05-03 09:12:36][01;37m Total: 16.58 MH/s[0m
+[2019-05-03 09:12:46] GPU #0: Zotac GTX 1060 3GB, 16.60 MH/s[0m
+[2019-05-03 09:12:46][01;37m Total: 16.59 MH/s[0m
+[2019-05-03 09:12:49] GPU #0: 1822 MHz 181.40 kH/W 91W 74C FAN 70%[0m
+[2019-05-03 09:12:56] GPU #0: Zotac GTX 1060 3GB, 16.56 MH/s[0m
+[2019-05-03 09:12:56][01;37m Total: 16.58 MH/s[0m
+[2019-05-03 09:12:57][01;37m Total: 16.56 MH/s[0m
+[2019-05-03 09:12:58][01;37m Total: 16.55 MH/s[0m
+[2019-05-03 09:12:58][01;37m Benchmark: 16.55 MH/s[0m

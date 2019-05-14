@@ -1,0 +1,68 @@
+2019.05.03:09:39:53.514: main Phoenix Miner 4.2c Windows/msvc - Release build
+2019.05.03:09:39:53.514: main Cmd line: -di 1 -platform 2 -epool stratum+tcp://daggerhashimoto.usa.nicehash.com:3353 -ewal 33hGFJZQAfbdzyHGqhJPvZwncDjUBdZqjW.miner -mport 127.0.0.1:-4039 -esm 3 -epsw x -allpools 1 -logfile 1-0_log.txt 
+2019.05.03:09:39:53.736: main CUDA version: 10.0, CUDA runtime: 8.0
+2019.05.03:09:39:53.737: main Available GPUs for mining:
+2019.05.03:09:39:53.737: main GPU1: GeForce GTX 1060 3GB (pcie 66), CUDA cap. 6.1, 3 GB VRAM, 9 CUs
+2019.05.03:09:39:53.747: main NVML library initialized
+2019.05.03:09:39:53.759: main Nvidia driver version: 430.39
+2019.05.03:09:39:54.276: main Eth: Loading pools from epools.txt
+2019.05.03:09:39:54.276: main Eth: the pool list contains 3 pools (1 from command-line)
+2019.05.03:09:39:54.276: main Eth: primary pool: daggerhashimoto.usa.nicehash.com:3353
+2019.05.03:09:39:54.276: main Starting GPU mining
+2019.05.03:09:39:54.277: wdog Starting watchdog thread
+2019.05.03:09:39:54.278: main Eth: Connecting to ethash pool daggerhashimoto.usa.nicehash.com:3353 (proto: Nicehash)
+2019.05.03:09:39:54.338: eths Eth: Connected to ethash pool daggerhashimoto.usa.nicehash.com:3353 (172.65.194.252)
+2019.05.03:09:39:54.338: eths Eth: Send: {"id":1,"method":"mining.subscribe","params":["PhoenixMiner/4.2c","EthereumStratum/1.0.0"]}
+
+2019.05.03:09:39:54.433: eths Eth: Received: {"id":1,"error":null,"result":[["mining.notify","16a4f3bb34102a9ac37e11963c74d3e6","EthereumStratum/1.0.0"],"057f4f"]}
+2019.05.03:09:39:54.433: eths Eth: Extranonce set to 057f4f
+2019.05.03:09:39:54.433: eths Eth: Subscribed to ethash pool
+2019.05.03:09:39:54.433: eths Eth: Send: {"id":2,"method":"mining.extranonce.subscribe","params":[]}
+{"id":3,"method":"mining.authorize","params":["33hGFJZQAfbdzyHGqhJPvZwncDjUBdZqjW.miner","x"]}
+
+2019.05.03:09:39:54.480: main Listening for CDM remote manager at port 4039 in read-only mode
+2019.05.03:09:39:54.480: main GPU1: 39C 56%
+2019.05.03:09:39:54.510: eths Eth: Received: {"id":3,"result":true,"error":null}
+2019.05.03:09:39:54.510: eths Eth: Worker 33hGFJZQAfbdzyHGqhJPvZwncDjUBdZqjW.miner authorized
+2019.05.03:09:39:54.512: eths Eth: Received: {"id":null,"method":"mining.set_difficulty","params":[2]}
+2019.05.03:09:39:54.512: eths Eth: Difficulty set to 2
+2019.05.03:09:39:54.512: eths Eth: Received: {"params":["00000135dbd97670","a6fcfcc17b4c0fc724ab5c022bd1916efb2144ddbfdb53280ec6650fb9e0871a","78cc5d204b39ae428d8db5f1fb0ce15599ed4d1012da6436e85656069ebece7b",true],"id":null,"method":"mining.notify"}
+2019.05.03:09:39:54.512: eths Eth: New job #78cc5d20 from daggerhashimoto.usa.nicehash.com:3353; diff: 8590MH
+2019.05.03:09:39:54.513: eths GPU1: not enough VRAM for DAG epoch 256
+2019.05.03:09:39:54.513: eths Eth: Switching to pool eu1.ethermine.org:4444
+2019.05.03:09:39:54.513: eths Eth: Reconnecting in 20 seconds...
+2019.05.03:09:40:14.515: unkn Eth: Connecting to ethash pool eu1.ethermine.org:4444 (proto: EthProxy)
+2019.05.03:09:40:14.607: eths Eth: Connected to ethash pool eu1.ethermine.org:4444 (172.65.207.106)
+2019.05.03:09:40:14.607: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0x008c26f3a2Ca8bdC11e5891e0278c9436B6F5d1E.Rig001"]}
+
+2019.05.03:09:40:14.607: eths Eth: Received: {"id":2,"result":true,"error":null}
+2019.05.03:09:40:14.644: eths Eth: Received: {"id":1,"jsonrpc":"2.0","result":true}
+2019.05.03:09:40:14.644: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2019.05.03:09:40:14.682: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x9fb48585adf3db3c816802c577f995a6cf79056d564553cc896c9d61b29aa9a3","0xa6fcfcc17b4c0fc724ab5c022bd1916efb2144ddbfdb53280ec6650fb9e0871a","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x7552cd"]}
+2019.05.03:09:40:14.682: eths Eth: New job #9fb48585 from eu1.ethermine.org:4444; diff: 4000MH
+2019.05.03:09:40:14.682: eths GPU1: not enough VRAM for DAG epoch 256
+2019.05.03:09:40:14.682: eths Eth: Switching to pool us1.ethermine.org:4444
+2019.05.03:09:40:14.683: eths Eth: Reconnecting in 20 seconds...
+2019.05.03:09:40:22.460: main GPU1: 39C 56%
+2019.05.03:09:40:34.684: unkn Eth: Connecting to ethash pool us1.ethermine.org:4444 (proto: EthProxy)
+2019.05.03:09:40:34.730: eths Eth: Connected to ethash pool us1.ethermine.org:4444 (172.65.218.238)
+2019.05.03:09:40:34.730: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0x008c26f3a2Ca8bdC11e5891e0278c9436B6F5d1E.Rig001"]}
+
+2019.05.03:09:40:34.760: eths Eth: Received: {"id":1,"jsonrpc":"2.0","result":true}
+2019.05.03:09:40:34.760: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2019.05.03:09:40:34.820: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x61a3cc0bdd4314bd00d1b641dfa3897ee3df14548ab6d58fec6e6bc4c39ab2ca","0xa6fcfcc17b4c0fc724ab5c022bd1916efb2144ddbfdb53280ec6650fb9e0871a","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0x7552cd"]}
+2019.05.03:09:40:34.821: eths Eth: New job #61a3cc0b from us1.ethermine.org:4444; diff: 4000MH
+2019.05.03:09:40:34.821: eths GPU1: not enough VRAM for DAG epoch 256
+2019.05.03:09:40:34.821: eths Eth: Switching to pool daggerhashimoto.usa.nicehash.com:3353
+2019.05.03:09:40:34.821: eths Eth: Reconnecting in 20 seconds...
+2019.05.03:09:40:39.379: main  
+2019.05.03:09:40:39.379: main *** 0:00 *** 5/3 09:40 **************************************
+2019.05.03:09:40:39.380: main Eth: Mining Unknown on >daggerhashimoto.usa.nicehash.com:3353 for 0:00
+2019.05.03:09:40:39.380: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2019.05.03:09:40:39.380: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2019.05.03:09:40:39.380: main Eth: Average speed (5 min): 0.000 MH/s
+2019.05.03:09:40:39.380: main  
+2019.05.03:09:40:50.456: main GPU1: 38C 56%
+2019.05.03:09:40:54.823: unkn Eth: Connecting to ethash pool daggerhashimoto.usa.nicehash.com:3353 (proto: Nicehash)

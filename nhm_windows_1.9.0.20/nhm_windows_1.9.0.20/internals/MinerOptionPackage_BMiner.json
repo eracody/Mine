@@ -1,0 +1,23 @@
+{
+  "Name": "BMiner",
+  "Type": 23,
+  "GeneralOptions": [
+    {
+      "Type": "bminer_max_temp",
+      "ShortName": "-max-temperature",
+      "LongName": "-max-temperature",
+      "Default": "85",
+      "FlagType": 2,
+      "Separator": ""
+    },
+    {
+      "Type": "bminer_nofee",
+      "ShortName": "-nofee",
+      "LongName": "-nofee",
+      "Default": null,
+      "FlagType": 0,
+      "Separator": ""
+    }
+  ],
+  "TemperatureOptions": []
+}

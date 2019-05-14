@@ -1,0 +1,47 @@
+TT-Miner - Version: 2.2.1 (Mar 27 2019 05:43:33)
+
+Press 'q' to stop mining and terminate
+
+****************** GPU information
+Nvidia GeForce Driver-Version: 430.39
+CUDA devices: 2
+* #0 PCI 0:66 Zotac	GeForce GTX 1060 3GB (6.1)	CoreClk 1506 MHz | MemClk 3802 MHz | 3072 MB | SM: 9
+  #1 PCI 0:15 EVGA	GeForce GTX 970 (5.2)	CoreClk 1164 MHz | MemClk 3505 MHz | 4096 MB | SM: 13
+
+****************** Mining-Pool information
+ID:0 - Primary pool:	lyra2rev3.usa.nicehash.com:3373
+			Wallet: 33hGFJZQAfbdzyHGqhJPvZwncDjUBdZqjW
+			Worker: benchmark
+
+No backup pool defined
+
+****************** Algo information
+Algo/Cuda detection:	Auto detect
+Algo/Cuda loaded:	Lyra2Rev3 for CUDA 10.10
+
+****************** Apply settings
+Set process priority:		default
+Avg. performance timeframe:	2 minutes
+Performance summary(seconds):	15 seconds
+Performance summary(shares):	disabled
+Report Hashrate to pool:	disabled
+Use intensity:			use default value
+Use gridsize:			use default value
+API-Interface enabled. Listening on 1
+
+****************** Start mining
+9:23:17 AM POOL: Connecting to lyra2rev3.usa.nicehash.com:3373 - PoolID: 0
+9:23:17 AM POOL: Connected to: lyra2rev3.usa.nicehash.com:3373 - IP4: 172.65.239.11:3373, Protocol Stratum
+9:23:17 AM POOL: Subscribed to lyra2rev3.usa.nicehash.com:3373 - detected protocol: Stratum
+9:23:17 AM POOL: Worker authorized: benchmark
+9:23:17 AM POOL: Received new job#: 20592a002e3
+9:23:20 AM Miner: GPU[0] use default intensity 14, Gridsize: 576
+9:23:20 AM Miner: GPU[0] try other intensities to find the best performance for your card, you could try '-i 15'
+9:23:20 AM POOL: difficulty up from 0.000 H to 2.152 GH
+9:23:21 AM POOL: Received new job#: 20592a0061c
+9:23:30 AM GPU[0]: 17.198 MH/s  CClk:1.814 GHz MClk:3.807 GHz 75C 71% 93W 184.88 kH/W [A0:R0 0.0%]  LastShare: -
+9:23:30 AM Rig-Speed[2 min]: 17.198 MH/s 93W 184.88 kH/W [A0:R0 0.0%] Uptime: 00:00:12  LastShare: -
+9:23:31 AM POOL: Received new job#: 20592a009a2
+9:23:32 AM POOL: Received new job#: 20592a00adc
+9:23:45 AM GPU[0]: 18.101 MH/s  CClk:1.814 GHz MClk:3.807 GHz 76C 71% 91W 198.86 kH/W [A0:R0 0.0%]  LastShare: -
+9:23:45 AM Rig-Speed[2 min]: 18.101 MH/s 91W 198.86 kH/W [A0:R0 0.0%] Uptime: 00:00:27  LastShare: -

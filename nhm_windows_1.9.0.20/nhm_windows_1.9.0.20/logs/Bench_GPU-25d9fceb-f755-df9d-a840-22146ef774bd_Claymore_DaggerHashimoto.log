@@ -1,0 +1,85 @@
+09:08:49:341	1a48	Check and remove old log files...
+09:08:49:344	1a48	args: -di 0 -platform 2 -epool stratum+tcp://daggerhashimoto.usa.nicehash.com:3353 -ewal 33hGFJZQAfbdzyHGqhJPvZwncDjUBdZqjW.miner -mport 127.0.0.1:-4010 -esm 3 -epsw x -allpools 1 -logfile 1-1_log.txt -benchmark 1 
+09:08:49:345	1a48	
+09:08:49:346	1a48	����������������������������������������������������������������ͻ
+09:08:49:347	1a48	�                Claymore's Dual GPU Miner - v12.0               �
+09:08:49:348	1a48	�              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             �
+09:08:49:349	1a48	����������������������������������������������������������������ͼ
+09:08:49:350	1a48	
+09:08:49:351	1a48	b615 
+09:08:49:768	1a48	CUDA initializing...
+
+09:08:49:770	1a48	NVIDIA Cards available: 2 
+09:08:49:771	1a48	CUDA Driver Version/Runtime Version: 10.1/9.1
+09:08:49:774	1a48	GPU #0: GeForce GTX 970, 4096 MB available, 13 compute units, capability: 5.2  (pci bus 15:0:0)
+09:08:49:775	1a48	Total cards: 1 
+09:08:53:794	1a48	NVML version: 10.430.39
+09:08:55:088	1a48	SSL: Imported 34 certificates from local storage
+09:08:55:190	1a48	
+
+09:08:55:191	1a48	
+BENCHMARK MODE!
+
+09:08:55:233	13d8	Setting DAG epoch #231...
+09:08:55:559	2848	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:08:55:560	2848	ETH: GPU0 0.000 Mh/s
+09:08:55:561	2848	Current -dcri values: -dcri 30
+09:08:58:563	2848	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:08:58:564	2848	ETH: GPU0 0.000 Mh/s
+09:08:58:565	2848	Current -dcri values: -dcri 30
+09:08:59:526	13d8	Setting DAG epoch #231 for GPU0
+09:08:59:527	13d8	Create GPU buffer for GPU0
+09:09:01:567	2848	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:09:01:568	2848	ETH: GPU0 0.000 Mh/s
+09:09:01:569	2848	Current -dcri values: -dcri 30
+09:09:04:571	2848	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:09:04:572	2848	ETH: GPU0 0.000 Mh/s
+09:09:04:573	2848	Current -dcri values: -dcri 30
+09:09:07:575	2848	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:09:07:576	2848	ETH: GPU0 0.000 Mh/s
+09:09:07:577	2848	Current -dcri values: -dcri 30
+09:09:10:579	2848	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:09:10:580	2848	ETH: GPU0 0.000 Mh/s
+09:09:10:581	2848	Current -dcri values: -dcri 30
+09:09:11:888	13d8	GPU0 DAG creation time - 12130 ms
+09:09:11:890	13d8	Setting DAG epoch #231 for GPU0 done
+09:09:13:584	2848	ETH - Total Speed: 2.288 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:09:13:585	2848	ETH: GPU0 2.288 Mh/s
+09:09:13:586	2848	Current -dcri values: -dcri 30
+09:09:16:588	2848	ETH - Total Speed: 2.294 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:09:16:589	2848	ETH: GPU0 2.294 Mh/s
+09:09:16:590	2848	Current -dcri values: -dcri 30
+09:09:19:592	2848	ETH - Total Speed: 1.371 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:09:19:593	2848	ETH: GPU0 1.371 Mh/s
+09:09:19:594	2848	Current -dcri values: -dcri 30
+09:09:19:596	2848	GPU0 t=67C fan=26%
+09:09:19:839	2aa4	
+09:09:19:840	2aa4	watchdog - thread 0 (gpu0), hb time 3485
+09:09:19:841	2aa4	watchdog - thread 1 (gpu0), hb time 1000
+09:09:22:598	2848	ETH - Total Speed: 2.293 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:09:22:599	2848	ETH: GPU0 2.293 Mh/s
+09:09:22:600	2848	Current -dcri values: -dcri 30
+09:09:25:602	2848	ETH - Total Speed: 2.293 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:09:25:603	2848	ETH: GPU0 2.293 Mh/s
+09:09:25:604	2848	Current -dcri values: -dcri 30
+09:09:28:606	2848	ETH - Total Speed: 1.371 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:09:28:607	2848	ETH: GPU0 1.371 Mh/s
+09:09:28:608	2848	Current -dcri values: -dcri 30
+09:09:31:610	2848	ETH - Total Speed: 2.293 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:09:31:611	2848	ETH: GPU0 2.293 Mh/s
+09:09:31:612	2848	Current -dcri values: -dcri 30
+09:09:34:615	2848	ETH - Total Speed: 2.293 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:09:34:615	2848	ETH: GPU0 2.293 Mh/s
+09:09:34:617	2848	Current -dcri values: -dcri 30
+09:09:37:619	2848	ETH - Total Speed: 2.293 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:09:37:620	2848	ETH: GPU0 2.293 Mh/s
+09:09:37:622	2848	Current -dcri values: -dcri 30
+09:09:40:623	2848	ETH - Total Speed: 2.293 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:09:40:624	2848	ETH: GPU0 2.293 Mh/s
+09:09:40:625	2848	Current -dcri values: -dcri 30
+09:09:43:627	2848	ETH - Total Speed: 2.293 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:09:43:628	2848	ETH: GPU0 2.293 Mh/s
+09:09:43:629	2848	Current -dcri values: -dcri 30
+09:09:46:631	2848	ETH - Total Speed: 2.293 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:09:46:632	2848	ETH: GPU0 2.293 Mh/s
+09:09:46:633	2848	Current -dcri values: -dcri 30

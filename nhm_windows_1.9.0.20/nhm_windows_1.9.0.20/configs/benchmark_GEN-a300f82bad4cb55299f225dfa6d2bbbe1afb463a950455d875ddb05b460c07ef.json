@@ -1,0 +1,46 @@
+{
+  "DeviceUUID": "GEN-a300f82bad4cb55299f225dfa6d2bbbe1afb463a950455d875ddb05b460c07ef",
+  "DeviceName": "Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz",
+  "AlgorithmSettings": [
+    {
+      "Name": "XmrStak_CryptoNightHeavy",
+      "NiceHashID": 31,
+      "SecondaryNiceHashID": -1,
+      "MinerBaseType": 10,
+      "MinerName": "cryptonight_heavy",
+      "BenchmarkSpeed": 10.3,
+      "SecondaryBenchmarkSpeed": 0.0,
+      "ExtraLaunchParameters": "",
+      "Enabled": true,
+      "LessThreads": 0,
+      "PowerUsage": 0.0
+    },
+    {
+      "Name": "XmrStak_CryptoNightV8",
+      "NiceHashID": 34,
+      "SecondaryNiceHashID": -1,
+      "MinerBaseType": 10,
+      "MinerName": "cryptonight_v8",
+      "BenchmarkSpeed": 26.0,
+      "SecondaryBenchmarkSpeed": 0.0,
+      "ExtraLaunchParameters": "",
+      "Enabled": true,
+      "LessThreads": 0,
+      "PowerUsage": 0.0
+    },
+    {
+      "Name": "XmrStak_CryptoNightR",
+      "NiceHashID": 42,
+      "SecondaryNiceHashID": -1,
+      "MinerBaseType": 10,
+      "MinerName": "cryptonight_r",
+      "BenchmarkSpeed": 26.0,
+      "SecondaryBenchmarkSpeed": 0.0,
+      "ExtraLaunchParameters": "",
+      "Enabled": true,
+      "LessThreads": 0,
+      "PowerUsage": 0.0
+    }
+  ],
+  "DualAlgorithmSettings": []
+}

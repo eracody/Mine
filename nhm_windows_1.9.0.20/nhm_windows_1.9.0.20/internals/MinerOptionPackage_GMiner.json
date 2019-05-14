@@ -1,0 +1,31 @@
+{
+  "Name": "GMiner",
+  "Type": 22,
+  "GeneralOptions": [
+    {
+      "Type": "gminer_templimit",
+      "ShortName": "-t",
+      "LongName": "--templimit",
+      "Default": "90",
+      "FlagType": 2,
+      "Separator": " "
+    },
+    {
+      "Type": "gminer_pec",
+      "ShortName": "--pec",
+      "LongName": "--pec",
+      "Default": "1",
+      "FlagType": 1,
+      "Separator": ""
+    },
+    {
+      "Type": "gminer_electricity",
+      "ShortName": "--electricity_cost",
+      "LongName": "--electricity_cost",
+      "Default": null,
+      "FlagType": 1,
+      "Separator": ""
+    }
+  ],
+  "TemperatureOptions": []
+}

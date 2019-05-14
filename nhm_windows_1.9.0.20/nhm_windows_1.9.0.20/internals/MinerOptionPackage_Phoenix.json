@@ -1,0 +1,135 @@
+{
+  "Name": "Phoenix",
+  "Type": 21,
+  "GeneralOptions": [
+    {
+      "Type": "phoenix_mi",
+      "ShortName": "-mi",
+      "LongName": "-mi",
+      "Default": "12",
+      "FlagType": 2,
+      "Separator": ","
+    },
+    {
+      "Type": "phoenix_gt",
+      "ShortName": "-gt",
+      "LongName": "-gt",
+      "Default": "0",
+      "FlagType": 2,
+      "Separator": ","
+    },
+    {
+      "Type": "phoenix_sci",
+      "ShortName": "-sci",
+      "LongName": "-sci",
+      "Default": "30",
+      "FlagType": 2,
+      "Separator": ","
+    },
+    {
+      "Type": "phoenix_clKernel",
+      "ShortName": "-clKernel",
+      "LongName": "-clKernel",
+      "Default": "1",
+      "FlagType": 2,
+      "Separator": ","
+    },
+    {
+      "Type": "phoenix_clgreen",
+      "ShortName": "-clgreen",
+      "LongName": "-clgreen",
+      "Default": "0",
+      "FlagType": 2,
+      "Separator": ","
+    },
+    {
+      "Type": "phoenix_clNew",
+      "ShortName": "-clNew",
+      "LongName": "-clNew",
+      "Default": "1",
+      "FlagType": 2,
+      "Separator": ","
+    },
+    {
+      "Type": "phoenix_clf",
+      "ShortName": "-clf",
+      "LongName": "-clf",
+      "Default": "1",
+      "FlagType": 2,
+      "Separator": ","
+    },
+    {
+      "Type": "phoenix_nvKernel",
+      "ShortName": "-nvKernel",
+      "LongName": "-nvKernel",
+      "Default": "0",
+      "FlagType": 2,
+      "Separator": ","
+    },
+    {
+      "Type": "phoenix_nvNew",
+      "ShortName": "-nvNew",
+      "LongName": "-nvNew",
+      "Default": "1",
+      "FlagType": 2,
+      "Separator": ","
+    },
+    {
+      "Type": "phoenix_nvf",
+      "ShortName": "-nvf",
+      "LongName": "-nvf",
+      "Default": "1",
+      "FlagType": 2,
+      "Separator": ","
+    },
+    {
+      "Type": "phoenix_eres",
+      "ShortName": "-eres",
+      "LongName": "-eres",
+      "Default": "2",
+      "FlagType": 2,
+      "Separator": ","
+    },
+    {
+      "Type": "phoenix_lidag",
+      "ShortName": "-lidag",
+      "LongName": "-lidag",
+      "Default": "0",
+      "FlagType": 2,
+      "Separator": ","
+    },
+    {
+      "Type": "phoenix_gser",
+      "ShortName": "-gser",
+      "LongName": "-gser",
+      "Default": "0",
+      "FlagType": 1,
+      "Separator": ""
+    },
+    {
+      "Type": "phoenix_altinit",
+      "ShortName": "-altinit",
+      "LongName": "-altinit",
+      "Default": null,
+      "FlagType": 0,
+      "Separator": ""
+    },
+    {
+      "Type": "phoenix_gpow",
+      "ShortName": "-gpow",
+      "LongName": "-gpow",
+      "Default": "100",
+      "FlagType": 2,
+      "Separator": ","
+    },
+    {
+      "Type": "phoenix_li",
+      "ShortName": "-li",
+      "LongName": "-li",
+      "Default": "0",
+      "FlagType": 2,
+      "Separator": ","
+    }
+  ],
+  "TemperatureOptions": []
+}

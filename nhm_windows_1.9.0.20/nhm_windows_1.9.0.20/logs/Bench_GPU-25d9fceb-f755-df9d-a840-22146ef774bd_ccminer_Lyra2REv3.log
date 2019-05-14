@@ -1,0 +1,30 @@
+*** ccminer 2.3.1 for nVidia GPUs by tpruvot@github ***
+    Built with VC++ 2013 and nVidia CUDA SDK 10.0 64-bits
+
+  Originally based on Christian Buchner and Christian H. project
+  Include some kernels from alexis78, djm34, djEzo, tsiv and krnlx.
+
+BTC donation address: 1AJdfCpLWPNoAMDfHF1wD5y8VgKSSTHxPo (tpruvot)
+
+[2019-05-03 09:22:14] NVML GPU monitoring enabled.[0m
+[2019-05-03 09:22:14] NVAPI GPU monitoring enabled.[0m
+[2019-05-03 09:22:14] 1 miner thread started, using 'lyra2v3' algorithm.[0m
+[2019-05-03 09:22:14] GPU #1: Intensity set to 19, 524288 cuda threads[0m
+[2019-05-03 09:22:16][33m API bind to port 4068 failed - using port 4069[0m
+[2019-05-03 09:22:18] GPU #1: EVGA GTX 970, 18.66 MH/s[0m
+[2019-05-03 09:22:24] GPU #1: EVGA GTX 970, 18.55 MH/s[0m
+[2019-05-03 09:22:24][01;37m Total: 18.55 MH/s[0m
+[2019-05-03 09:22:34] GPU #1: EVGA GTX 970, 18.56 MH/s[0m
+[2019-05-03 09:22:34][01;37m Total: 18.55 MH/s[0m
+[2019-05-03 09:22:44] GPU #1: EVGA GTX 970, 18.51 MH/s[0m
+[2019-05-03 09:22:44][01;37m Total: 18.54 MH/s[0m
+[2019-05-03 09:22:54] GPU #1: EVGA GTX 970, 18.49 MH/s[0m
+[2019-05-03 09:22:54][01;37m Total: 18.53 MH/s[0m
+[2019-05-03 09:23:04] GPU #1: EVGA GTX 970, 18.51 MH/s[0m
+[2019-05-03 09:23:04][01;37m Total: 18.52 MH/s[0m
+[2019-05-03 09:23:07] GPU #1: 1303 MHz 109.72 kH/W 168W 78C FAN 39%[0m
+[2019-05-03 09:23:14] GPU #1: EVGA GTX 970, 18.52 MH/s[0m
+[2019-05-03 09:23:14][01;37m Total: 18.52 MH/s[0m
+[2019-05-03 09:23:14][01;37m Total: 18.52 MH/s[0m
+[2019-05-03 09:23:15][01;37m Total: 18.51 MH/s[0m
+[2019-05-03 09:23:15][01;37m Benchmark: 18.51 MH/s[0m

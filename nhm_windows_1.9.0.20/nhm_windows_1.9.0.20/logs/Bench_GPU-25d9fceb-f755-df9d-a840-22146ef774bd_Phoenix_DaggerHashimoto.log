@@ -1,0 +1,132 @@
+2019.05.03:09:09:49.236: main Phoenix Miner 4.2c Windows/msvc - Release build
+2019.05.03:09:09:49.236: main Cmd line: -di 0 -platform 2 -epool stratum+tcp://daggerhashimoto.usa.nicehash.com:3353 -ewal 33hGFJZQAfbdzyHGqhJPvZwncDjUBdZqjW.miner -mport 127.0.0.1:-4012 -esm 3 -epsw x -allpools 1 -logfile 1-1_log.txt 
+2019.05.03:09:09:49.412: main CUDA version: 10.0, CUDA runtime: 8.0
+2019.05.03:09:09:49.413: main Available GPUs for mining:
+2019.05.03:09:09:49.413: main GPU1: GeForce GTX 970 (pcie 15), CUDA cap. 5.2, 4 GB VRAM, 13 CUs
+2019.05.03:09:09:49.423: main NVML library initialized
+2019.05.03:09:09:49.435: main Nvidia driver version: 430.39
+2019.05.03:09:09:49.961: main Eth: Loading pools from epools.txt
+2019.05.03:09:09:49.961: main Eth: the pool list contains 3 pools (1 from command-line)
+2019.05.03:09:09:49.961: main Eth: primary pool: daggerhashimoto.usa.nicehash.com:3353
+2019.05.03:09:09:49.961: main Starting GPU mining
+2019.05.03:09:09:49.962: wdog Starting watchdog thread
+2019.05.03:09:09:49.963: main Eth: Connecting to ethash pool daggerhashimoto.usa.nicehash.com:3353 (proto: Nicehash)
+2019.05.03:09:09:50.033: eths Eth: Connected to ethash pool daggerhashimoto.usa.nicehash.com:3353 (172.65.194.252)
+2019.05.03:09:09:50.033: eths Eth: Send: {"id":1,"method":"mining.subscribe","params":["PhoenixMiner/4.2c","EthereumStratum/1.0.0"]}
+
+2019.05.03:09:09:50.142: eths Eth: Received: {"id":1,"error":null,"result":[["mining.notify","b9b6629429cfe7b62406571021febcf6","EthereumStratum/1.0.0"],"02f201"]}
+2019.05.03:09:09:50.142: eths Eth: Extranonce set to 02f201
+2019.05.03:09:09:50.142: eths Eth: Subscribed to ethash pool
+2019.05.03:09:09:50.142: eths Eth: Send: {"id":2,"method":"mining.extranonce.subscribe","params":[]}
+{"id":3,"method":"mining.authorize","params":["33hGFJZQAfbdzyHGqhJPvZwncDjUBdZqjW.miner","x"]}
+
+2019.05.03:09:09:50.165: main Listening for CDM remote manager at port 4012 in read-only mode
+2019.05.03:09:09:50.165: main GPU1: 63C 25%
+2019.05.03:09:09:50.225: eths Eth: Received: {"id":3,"result":true,"error":null}
+2019.05.03:09:09:50.225: eths Eth: Worker 33hGFJZQAfbdzyHGqhJPvZwncDjUBdZqjW.miner authorized
+2019.05.03:09:09:50.235: eths Eth: Received: {"id":null,"method":"mining.set_difficulty","params":[2]}
+2019.05.03:09:09:50.235: eths Eth: Difficulty set to 2
+2019.05.03:09:09:50.235: eths Eth: Received: {"params":["00000135dba35c7a","a6fcfcc17b4c0fc724ab5c022bd1916efb2144ddbfdb53280ec6650fb9e0871a","6799fb1b8180871da32d2093e2c205dcce5a7d96fc89e06469c9354fb47d4d5f",true],"id":null,"method":"mining.notify"}
+2019.05.03:09:09:50.236: eths Eth: New job #6799fb1b from daggerhashimoto.usa.nicehash.com:3353; diff: 8590MH
+2019.05.03:09:09:50.237: GPU1 GPU1: Starting up... (0)
+2019.05.03:09:09:50.237: GPU1 GPU1: Generating ethash light cache for epoch #256
+2019.05.03:09:09:50.238: eths Eth: Received: {"id":2,"result":true,"error":null}
+2019.05.03:09:09:50.748: eths Eth: Received: {"params":["00000135dba38040","a6fcfcc17b4c0fc724ab5c022bd1916efb2144ddbfdb53280ec6650fb9e0871a","7e9dc7477824a1e7e2fb5a5edf0d35c84d9e17b0986a58afcf091bd90637407c",true],"id":null,"method":"mining.notify"}
+2019.05.03:09:09:50.748: eths Eth: New job #7e9dc747 from daggerhashimoto.usa.nicehash.com:3353; diff: 8590MH
+2019.05.03:09:09:54.147: eths Eth: Received: {"params":["00000135dba3ce44","a6fcfcc17b4c0fc724ab5c022bd1916efb2144ddbfdb53280ec6650fb9e0871a","624e29e7ab9121b9cf28df09962b0229df7f156f84bb02ee5840cb7e430f4ace",true],"id":null,"method":"mining.notify"}
+2019.05.03:09:09:54.147: eths Eth: New job #624e29e7 from daggerhashimoto.usa.nicehash.com:3353; diff: 8590MH
+2019.05.03:09:09:54.692: GPU1 Light cache generated in 4.5 s (10.8 MB/s)
+2019.05.03:09:09:54.893: GPU1 GPU1: Allocating DAG (3.02) GB; good for epoch up to #258
+2019.05.03:09:09:54.995: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2019.05.03:09:09:55.099: GPU1 GPU1: Allocating light cache buffer (48.2) MB; good for epoch up to #258
+2019.05.03:09:09:55.135: GPU1 GPU1: Generating DAG for epoch #256
+2019.05.03:09:09:56.689: GPU1 GPU1: DAG  13%
+2019.05.03:09:09:58.246: GPU1 GPU1: DAG  27%
+2019.05.03:09:09:59.803: GPU1 GPU1: DAG  41%
+2019.05.03:09:10:00.032: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2019.05.03:09:10:01.136: eths Eth: Received: {"params":["00000135dba420ae","a6fcfcc17b4c0fc724ab5c022bd1916efb2144ddbfdb53280ec6650fb9e0871a","a0732720423980a3fca60318fa4f18dbc789e866d4007e6a62a8a05bfee8c45f",true],"id":null,"method":"mining.notify"}
+2019.05.03:09:10:01.137: eths Eth: New job #a0732720 from daggerhashimoto.usa.nicehash.com:3353; diff: 8590MH
+2019.05.03:09:10:01.360: GPU1 GPU1: DAG  55%
+2019.05.03:09:10:02.925: GPU1 GPU1: DAG  69%
+2019.05.03:09:10:04.142: eths Eth: Received: {"params":["00000135dba474d3","a6fcfcc17b4c0fc724ab5c022bd1916efb2144ddbfdb53280ec6650fb9e0871a","cbfa61818aab0f29f875e4c19db172f1f0ccc9ba3618deface105ea7b1a6463d",true],"id":null,"method":"mining.notify"}
+2019.05.03:09:10:04.142: eths Eth: New job #cbfa6181 from daggerhashimoto.usa.nicehash.com:3353; diff: 8590MH
+2019.05.03:09:10:04.490: GPU1 GPU1: DAG  83%
+2019.05.03:09:10:05.070: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2019.05.03:09:10:06.055: GPU1 GPU1: DAG  97%
+2019.05.03:09:10:06.229: GPU1 GPU1: DAG generated in 11.1 s (276.9 MB/s)
+2019.05.03:09:10:06.233: GPU1 GPU1: Using v1 Ethash CUDA kernels (GeForce GTX 970)
+2019.05.03:09:10:09.429: GPU1 CUDA error in CudaProgram.cu:430 : the launch timed out and was terminated (702)
+2019.05.03:09:10:09.429: GPU1 GPU1 search error: the launch timed out and was terminated
+2019.05.03:09:10:09.970: wdog Thread(s) not responding. Restarting.
+2019.05.03:09:10:10.100: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2019.05.03:09:10:12.648: eths Eth: Received: {"params":["00000135dba4ca1e","a6fcfcc17b4c0fc724ab5c022bd1916efb2144ddbfdb53280ec6650fb9e0871a","39eaf17f45676adbfc22f0d3a17a768f570c2df239f8b38ad13be0a90e359665",false],"id":null,"method":"mining.notify"}
+2019.05.03:09:10:12.648: eths Eth: New job #39eaf17f from daggerhashimoto.usa.nicehash.com:3353; diff: 8590MH
+2019.05.03:09:10:12.664: GPU1 GPU1: Starting up... (0)
+2019.05.03:09:10:12.665: GPU1 CUDART error in CudaProgram.cu:113 : all CUDA-capable devices are busy or unavailable (46)
+2019.05.03:09:10:12.665: GPU1 GPU1 initMiner error: all CUDA-capable devices are busy or unavailable
+2019.05.03:09:10:15.138: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2019.05.03:09:10:15.971: wdog Error 3 while trying to restart
+2019.05.03:09:39:09.715: main Phoenix Miner 4.2c Windows/msvc - Release build
+2019.05.03:09:39:09.715: main Cmd line: -di 0 -platform 2 -epool stratum+tcp://daggerhashimoto.usa.nicehash.com:3353 -ewal 33hGFJZQAfbdzyHGqhJPvZwncDjUBdZqjW.miner -mport 127.0.0.1:-4037 -esm 3 -epsw x -allpools 1 -logfile 1-1_log.txt 
+2019.05.03:09:39:09.877: main CUDA version: 10.0, CUDA runtime: 8.0
+2019.05.03:09:39:09.878: main Available GPUs for mining:
+2019.05.03:09:39:09.878: main GPU1: GeForce GTX 970 (pcie 15), CUDA cap. 5.2, 4 GB VRAM, 13 CUs
+2019.05.03:09:39:09.888: main NVML library initialized
+2019.05.03:09:39:09.900: main Nvidia driver version: 430.39
+2019.05.03:09:39:10.433: main Eth: Loading pools from epools.txt
+2019.05.03:09:39:10.433: main Eth: the pool list contains 3 pools (1 from command-line)
+2019.05.03:09:39:10.433: main Eth: primary pool: daggerhashimoto.usa.nicehash.com:3353
+2019.05.03:09:39:10.434: main Starting GPU mining
+2019.05.03:09:39:10.434: wdog Starting watchdog thread
+2019.05.03:09:39:10.435: main Eth: Connecting to ethash pool daggerhashimoto.usa.nicehash.com:3353 (proto: Nicehash)
+2019.05.03:09:39:10.490: eths Eth: Connected to ethash pool daggerhashimoto.usa.nicehash.com:3353 (172.65.194.252)
+2019.05.03:09:39:10.491: eths Eth: Send: {"id":1,"method":"mining.subscribe","params":["PhoenixMiner/4.2c","EthereumStratum/1.0.0"]}
+
+2019.05.03:09:39:10.604: eths Eth: Received: {"id":1,"error":null,"result":[["mining.notify","b7db36674044cbc02f96f61bce66d1af","EthereumStratum/1.0.0"],"f5ea95"]}
+2019.05.03:09:39:10.604: eths Eth: Extranonce set to f5ea95
+2019.05.03:09:39:10.604: eths Eth: Subscribed to ethash pool
+2019.05.03:09:39:10.604: eths Eth: Send: {"id":2,"method":"mining.extranonce.subscribe","params":[]}
+{"id":3,"method":"mining.authorize","params":["33hGFJZQAfbdzyHGqhJPvZwncDjUBdZqjW.miner","x"]}
+
+2019.05.03:09:39:10.637: main Listening for CDM remote manager at port 4037 in read-only mode
+2019.05.03:09:39:10.637: main GPU1: 39C 0%
+2019.05.03:09:39:10.647: eths Eth: Received: {"id":3,"result":true,"error":null}
+2019.05.03:09:39:10.647: eths Eth: Worker 33hGFJZQAfbdzyHGqhJPvZwncDjUBdZqjW.miner authorized
+2019.05.03:09:39:10.669: eths Eth: Received: {"id":null,"method":"mining.set_difficulty","params":[2]}
+2019.05.03:09:39:10.669: eths Eth: Difficulty set to 2
+2019.05.03:09:39:10.669: eths Eth: Received: {"params":["00000135dbd7b975","a6fcfcc17b4c0fc724ab5c022bd1916efb2144ddbfdb53280ec6650fb9e0871a","02804b4ebdc50cd70a71ccab8eedc67236d28f1fbb910de6dfbb4a9f9ff4db20",true],"id":null,"method":"mining.notify"}
+2019.05.03:09:39:10.669: eths Eth: New job #02804b4e from daggerhashimoto.usa.nicehash.com:3353; diff: 8590MH
+2019.05.03:09:39:10.670: GPU1 GPU1: Starting up... (0)
+2019.05.03:09:39:10.670: GPU1 GPU1: Generating ethash light cache for epoch #256
+2019.05.03:09:39:10.670: eths Eth: Received: {"id":2,"result":true,"error":null}
+2019.05.03:09:39:15.130: GPU1 Light cache generated in 4.5 s (10.8 MB/s)
+2019.05.03:09:39:15.254: GPU1 GPU1: Allocating DAG (3.02) GB; good for epoch up to #258
+2019.05.03:09:39:15.461: GPU1 GPU1: Allocating light cache buffer (48.2) MB; good for epoch up to #258
+2019.05.03:09:39:15.463: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2019.05.03:09:39:15.496: GPU1 GPU1: Generating DAG for epoch #256
+2019.05.03:09:39:17.041: GPU1 GPU1: DAG  13%
+2019.05.03:09:39:18.585: GPU1 GPU1: DAG  27%
+2019.05.03:09:39:18.799: eths Eth: Received: {"params":["00000135dbd7d83b","a6fcfcc17b4c0fc724ab5c022bd1916efb2144ddbfdb53280ec6650fb9e0871a","efa45e3af82963d8c0bbd9240fe60240b688f831ad4f572b2f1b07bb246639ba",true],"id":null,"method":"mining.notify"}
+2019.05.03:09:39:18.799: eths Eth: New job #efa45e3a from daggerhashimoto.usa.nicehash.com:3353; diff: 8590MH
+2019.05.03:09:39:20.130: GPU1 GPU1: DAG  41%
+2019.05.03:09:39:20.501: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2019.05.03:09:39:21.674: GPU1 GPU1: DAG  55%
+2019.05.03:09:39:23.222: GPU1 GPU1: DAG  69%
+2019.05.03:09:39:23.384: eths Eth: Received: {"params":["00000135dbd823e2","a6fcfcc17b4c0fc724ab5c022bd1916efb2144ddbfdb53280ec6650fb9e0871a","c54fb642a6d7cd4eb3e4a26642d63901c25a1f224865e3870362f3a195cd97f7",true],"id":null,"method":"mining.notify"}
+2019.05.03:09:39:23.384: eths Eth: New job #c54fb642 from daggerhashimoto.usa.nicehash.com:3353; diff: 8590MH
+2019.05.03:09:39:24.768: GPU1 GPU1: DAG  83%
+2019.05.03:09:39:25.539: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2019.05.03:09:39:26.318: GPU1 GPU1: DAG  97%
+2019.05.03:09:39:26.491: GPU1 GPU1: DAG generated in 11.0 s (279.4 MB/s)
+2019.05.03:09:39:26.495: GPU1 GPU1: Using v1 Ethash CUDA kernels (GeForce GTX 970)
+2019.05.03:09:39:30.231: GPU1 CUDA error in CudaProgram.cu:430 : unknown error (999)
+2019.05.03:09:39:30.231: GPU1 GPU1 search error: unknown error
+2019.05.03:09:39:30.442: wdog Thread(s) not responding. Restarting.
+2019.05.03:09:39:30.569: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2019.05.03:09:39:33.716: eths Eth: Received: {"params":["00000135dbd87b37","a6fcfcc17b4c0fc724ab5c022bd1916efb2144ddbfdb53280ec6650fb9e0871a","29e0954d5bab7833508463daf38fb6c61bd057b09152436830c64a171b492ff4",true],"id":null,"method":"mining.notify"}
+2019.05.03:09:39:33.716: eths Eth: New job #29e0954d from daggerhashimoto.usa.nicehash.com:3353; diff: 8590MH
+2019.05.03:09:39:33.732: GPU1 GPU1: Starting up... (0)
+2019.05.03:09:39:33.736: GPU1 CUDART error in CudaProgram.cu:113 : all CUDA-capable devices are busy or unavailable (46)
+2019.05.03:09:39:33.736: GPU1 GPU1 initMiner error: all CUDA-capable devices are busy or unavailable
+2019.05.03:09:39:35.604: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2019.05.03:09:39:36.443: wdog Error 3 while trying to restart

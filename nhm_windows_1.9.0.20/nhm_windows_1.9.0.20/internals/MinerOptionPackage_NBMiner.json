@@ -1,0 +1,15 @@
+{
+  "Name": "NBMiner",
+  "Type": 25,
+  "GeneralOptions": [
+    {
+      "Type": "nbminer_intensity",
+      "ShortName": "--cuckoo-intensity",
+      "LongName": "--cuckoo-intensity",
+      "Default": "0",
+      "FlagType": 1,
+      "Separator": ""
+    }
+  ],
+  "TemperatureOptions": []
+}
