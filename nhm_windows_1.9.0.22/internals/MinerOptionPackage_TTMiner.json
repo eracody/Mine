@@ -1,0 +1,31 @@
+{
+  "Name": "TTMiner",
+  "Type": 24,
+  "GeneralOptions": [
+    {
+      "Type": "ttminer_intensity",
+      "ShortName": "-i",
+      "LongName": "-i",
+      "Default": "-1",
+      "FlagType": 2,
+      "Separator": ","
+    },
+    {
+      "Type": "ttminer_intensity_grid",
+      "ShortName": "-ig",
+      "LongName": "-ig",
+      "Default": "-1",
+      "FlagType": 2,
+      "Separator": ","
+    },
+    {
+      "Type": "ttminer_grid_size",
+      "ShortName": "-gs",
+      "LongName": "-gs",
+      "Default": "-1",
+      "FlagType": 2,
+      "Separator": ","
+    }
+  ],
+  "TemperatureOptions": []
+}

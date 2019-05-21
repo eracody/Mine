@@ -1,0 +1,1 @@
+nbminer -a cuckaroo -o stratum+tcp://grin.sparkpool.com:6666 -u 2516768771@qq.com/default -long-format -log

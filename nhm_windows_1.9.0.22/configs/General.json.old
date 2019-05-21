@@ -1,0 +1,111 @@
+{
+  "ConfigFileVersion": {
+    "Major": 1,
+    "Minor": 9,
+    "Build": 0,
+    "Revision": 20,
+    "MajorRevision": 0,
+    "MinorRevision": 20
+  },
+  "Language": "en",
+  "DisplayCurrency": "USD",
+  "DebugConsole": false,
+  "BitcoinAddress": "3ErAvcH5BQP3N7FsC4z5MKWQ86a26xzqjh",
+  "WorkerName": "Miner1",
+  "TimeUnit": 1,
+  "IFTTTKey": "",
+  "ServiceLocation": 1,
+  "AutoStartMining": true,
+  "HideMiningWindows": false,
+  "MinimizeToTray": false,
+  "MinimizeMiningWindows": false,
+  "ForceCPUExtension": 0,
+  "SwitchProfitabilityThreshold": 0.05,
+  "MinerAPIQueryInterval": 5,
+  "MinerRestartDelayMS": 500,
+  "BenchmarkTimeLimits": {
+    "CPU": [
+      20,
+      60,
+      120
+    ],
+    "NVIDIA": [
+      20,
+      60,
+      120
+    ],
+    "AMD": [
+      120,
+      180,
+      240
+    ]
+  },
+  "DeviceDetection": {
+    "DisableDetectionAMD": false,
+    "DisableDetectionNVIDIA": false
+  },
+  "DisableAMDTempControl": true,
+  "DisableDefaultOptimizations": false,
+  "AutoScaleBTCValues": true,
+  "StartMiningWhenIdle": true,
+  "MinIdleSeconds": 60,
+  "LogToFile": true,
+  "LogMaxFileSize": 1048576,
+  "ShowDriverVersionWarning": true,
+  "DisableWindowsErrorReporting": true,
+  "ShowInternetConnectionWarning": true,
+  "NVIDIAP0State": true,
+  "ethminerDefaultBlockHeight": 2000000,
+  "EthminerDagGenerationType": 0,
+  "ApiBindPortPoolStart": 4000,
+  "MinimumProfit": 0.0,
+  "IdleWhenNoInternetAccess": true,
+  "UseIFTTT": false,
+  "DownloadInit": true,
+  "RunScriptOnCUDA_GPU_Lost": true,
+  "Use3rdPartyMiners": 2,
+  "DownloadInit3rdParty": true,
+  "AllowMultipleInstances": true,
+  "LastDevicesSettup": [
+    {
+      "Name": "Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz",
+      "Enabled": false,
+      "UUID": "GEN-b00988621978f6ae1b0ce0807ac7b2a46fed63e54f065e49fab2ed93a9b51117"
+    },
+    {
+      "Name": "Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz",
+      "Enabled": false,
+      "UUID": "GEN-a300f82bad4cb55299f225dfa6d2bbbe1afb463a950455d875ddb05b460c07ef"
+    },
+    {
+      "Name": "Zotac GeForce GTX 1060 3GB",
+      "Enabled": true,
+      "UUID": "GPU-74818a7e-d0d7-c8b9-b929-99c0ce4865fa"
+    },
+    {
+      "Name": "EVGA GeForce GTX 970",
+      "Enabled": true,
+      "UUID": "GPU-25d9fceb-f755-df9d-a840-22146ef774bd"
+    }
+  ],
+  "hwid": "BFEBFBFF000206C2",
+  "agreedWithTOS": 4,
+  "CoolDownCheckEnabled": true,
+  "ForceSkipAMDNeoscryptLyraCheck": false,
+  "OverrideAMDBusIds": "",
+  "SwitchSmaTimeChangeSeconds": {
+    "Lower": 34,
+    "Upper": 55
+  },
+  "SwitchSmaTicksStable": {
+    "Lower": 2,
+    "Upper": 3
+  },
+  "SwitchSmaTicksUnstable": {
+    "Lower": 5,
+    "Upper": 13
+  },
+  "KwhPrice": 0.0,
+  "UseSmaCache": true,
+  "UseEthlargement": false
+}

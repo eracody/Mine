@@ -1,0 +1,46 @@
+{
+  "DeviceUUID": "GEN-fb8d6187bb136dbc2462c8b2850142fa9b47cf9a091ea6627fef323f886c940f",
+  "DeviceName": "Intel Xeon E312xx (Sandy Bridge)",
+  "AlgorithmSettings": [
+    {
+      "Name": "XmrStak_CryptoNightHeavy",
+      "NiceHashID": 31,
+      "SecondaryNiceHashID": -1,
+      "MinerBaseType": 10,
+      "MinerName": "cryptonight_heavy",
+      "BenchmarkSpeed": 0.0,
+      "SecondaryBenchmarkSpeed": 0.0,
+      "ExtraLaunchParameters": "",
+      "Enabled": true,
+      "LessThreads": 0,
+      "PowerUsage": 0.0
+    },
+    {
+      "Name": "XmrStak_CryptoNightV8",
+      "NiceHashID": 34,
+      "SecondaryNiceHashID": -1,
+      "MinerBaseType": 10,
+      "MinerName": "cryptonight_v8",
+      "BenchmarkSpeed": 0.0,
+      "SecondaryBenchmarkSpeed": 0.0,
+      "ExtraLaunchParameters": "",
+      "Enabled": true,
+      "LessThreads": 0,
+      "PowerUsage": 0.0
+    },
+    {
+      "Name": "XmrStak_CryptoNightR",
+      "NiceHashID": 42,
+      "SecondaryNiceHashID": -1,
+      "MinerBaseType": 10,
+      "MinerName": "cryptonight_r",
+      "BenchmarkSpeed": 0.0,
+      "SecondaryBenchmarkSpeed": 0.0,
+      "ExtraLaunchParameters": "",
+      "Enabled": true,
+      "LessThreads": 0,
+      "PowerUsage": 0.0
+    }
+  ],
+  "DualAlgorithmSettings": []
+}

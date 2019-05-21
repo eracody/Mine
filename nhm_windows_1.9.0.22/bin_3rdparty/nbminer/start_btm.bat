@@ -1,0 +1,1 @@
+nbminer -a tensority -o stratum+tcp://btm.f2pool.com:9221 -u bm1qjce8ml6nruc78kmw3v7m0k67nj39mmwwwketnu.default -log
