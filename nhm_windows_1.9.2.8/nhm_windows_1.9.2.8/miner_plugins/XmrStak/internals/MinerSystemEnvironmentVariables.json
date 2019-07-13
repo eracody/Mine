@@ -1,0 +1,11 @@
+{
+  "use_user_settings": false,
+  "default_system_environment_variables": {
+    "XMRSTAK_NOWAIT": "1",
+    "GPU_MAX_ALLOC_PERCENT": "100",
+    "GPU_SINGLE_ALLOC_PERCENT": "100",
+    "GPU_MAX_HEAP_SIZE": "100",
+    "GPU_FORCE_64BIT_PTR": "1"
+  },
+  "custom_system_environment_variables": null
+}

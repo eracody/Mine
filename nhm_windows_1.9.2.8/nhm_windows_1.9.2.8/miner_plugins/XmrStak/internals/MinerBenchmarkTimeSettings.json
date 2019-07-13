@@ -1,0 +1,13 @@
+{
+  "use_user_settings": false,
+  "time_general_s": {
+    "Quick": 20,
+    "Standard": 60,
+    "Precise": 120
+  },
+  "time_per_algorithm_s": {
+    "Quick": {},
+    "Standard": {},
+    "Precise": {}
+  }
+}

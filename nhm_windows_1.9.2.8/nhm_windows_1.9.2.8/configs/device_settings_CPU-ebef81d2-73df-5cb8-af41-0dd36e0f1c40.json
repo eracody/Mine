@@ -1,0 +1,22 @@
+{
+  "DeviceUUID": "CPU-ebef81d2-73df-5cb8-af41-0dd36e0f1c40",
+  "DeviceName": "(2x)Intel Xeon E312xx (Sandy Bridge)",
+  "Enabled": true,
+  "MinimumProfit": 0.0,
+  "PowerTarget": 0,
+  "PowerLevel": -1,
+  "PluginAlgorithmSettings": [
+    {
+      "Name": "XmrStak",
+      "PluginUUID": "XmrStak",
+      "PluginVersion": "2.0",
+      "AlgorithmIDs": "CryptoNightR",
+      "Speeds": [
+        0.0
+      ],
+      "ExtraLaunchParameters": "",
+      "Enabled": true,
+      "PowerUsage": 0.0
+    }
+  ]
+}

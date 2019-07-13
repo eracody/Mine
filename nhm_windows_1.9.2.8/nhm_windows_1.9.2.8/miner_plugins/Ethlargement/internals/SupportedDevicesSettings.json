@@ -1,0 +1,8 @@
+{
+  "use_user_settings": false,
+  "supported_device_names": [
+    "1080",
+    "1080 Ti",
+    "Titan Xp"
+  ]
+}
